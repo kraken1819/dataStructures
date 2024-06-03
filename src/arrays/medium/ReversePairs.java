@@ -3,7 +3,8 @@ import java.util.ArrayList ;
 
 /*
     Approach : see inversepairs for better understandiing .
-    this is not full solution to the problem . this only works for array containing only positive numbers .
+    this is not full solution to the problem . this only works for
+    array containing only positive numbers .
  */
 public class ReversePairs {
     public static int merge(int[] nums , int low , int mid , int high) {
