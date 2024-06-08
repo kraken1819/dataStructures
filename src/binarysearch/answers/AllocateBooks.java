@@ -6,7 +6,7 @@ public class AllocateBooks {
 
     public static int findPages(ArrayList<Integer> arr , int n , int m ) {
 
-        if(m>n) return -1 ;
+
 
         int low = Integer.MIN_VALUE ;
         int high = 0 ;
