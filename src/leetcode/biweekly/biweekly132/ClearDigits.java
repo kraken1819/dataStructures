@@ -1,4 +1,4 @@
-package leetcode.biweekly132;
+package leetcode.biweekly.biweekly132;
 
 import java.util.Scanner ;
 
