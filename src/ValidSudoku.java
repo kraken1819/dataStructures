@@ -1,5 +1,5 @@
 import java.util.* ;
-public class Test {
+public class ValidSudoku {
 
     public static boolean isValidSudoku(char[][] board) {
 
