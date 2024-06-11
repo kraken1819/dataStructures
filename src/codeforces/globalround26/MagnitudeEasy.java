@@ -1,5 +1,5 @@
 
-//package codeforces.globalround26;
+package codeforces.globalround26;
 // not full solution 
 import java.util.* ; 
 public class MagnitudeEasy {

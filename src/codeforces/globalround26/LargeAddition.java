@@ -1,4 +1,4 @@
-//package codeforces.globalround26;
+package codeforces.globalround26;
 
 import java.util.Scanner;
 import java.util.* ; 
