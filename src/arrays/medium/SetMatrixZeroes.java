@@ -1,7 +1,7 @@
 package arrays.medium;
 import java.util.Arrays ;
 import java.util.HashSet ;
-import java.util.Set ;
+
 public class SetMatrixZeroes {
     public static void setZeroes(int[][] matrix) {
         HashSet<Integer> rows = new HashSet<>() ;
