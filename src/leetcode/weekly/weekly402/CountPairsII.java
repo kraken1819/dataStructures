@@ -1,9 +1,9 @@
 package leetcode.weekly.weekly402;
 
 import java.util.HashMap ;
-import java.util.Arrays;
 
-public class CountPairs {
+
+public class CountPairsII {
 
     public static long countPairsTwoSum(int[] nums) {
          
