@@ -1,4 +1,4 @@
-//package codeforces.byrating._1000_;
+package codeforces.byrating._1000_;
 
 import java.util.*;
 
