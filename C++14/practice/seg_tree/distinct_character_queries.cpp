@@ -19,7 +19,7 @@ void build_seg_tree(int v, int l, int r, string& stringu){
     int m = l + ( r - l ) / 2; 
 
     build_seg_tree(2*v, l, m, stringu);
-    build_seg_tree(2*v, m+1, r, stringu);
+    build_seg_tree(2*v+1, m+1, r, stringu);
 
     distinct_seg_tree[v] = distinct_seg_tree[2*v] | distinct_seg_tree[2*v+1];
 }
@@ -68,11 +68,6 @@ int main(){
 
     build_seg_tree(1, 0, n-1, stringu);
 
-    //print seg tree 
-    rep(i,0,4*n-1) cout << distinct_seg_tree[i] << " " ;
-    cout << "\n";
-    // 
-
     int q; cin >> q; 
     
     while(q--){
@@ -81,11 +76,11 @@ int main(){
             int pos; 
             char ch; 
             cin >> pos >> ch; 
-            update_seg_tree(1, 0, n-1, pos, ch);
+            update_seg_tree(1, 0, n-1, pos-1, ch);
             continue;
         }
         int l, r; 
         cin >> l >> r; 
-        cout << __builtin_popcount(count_seg_tree(1, 0, n-1, l, r)) << "\n";
+        cout << __builtin_popcount(count_seg_tree(1, 0, n-1, l-1, r-1)) << "\n";
     }
 }
